@@ -58,7 +58,7 @@
 }
 
 .feature-card:hover {
-  transform: translateY(-4px);
+  /* transform: translateY(-4px); */
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   border-color: #3498db;
 }
@@ -121,7 +121,7 @@
 }
 
 .contact-card:hover {
-  transform: translateY(-4px);
+  /* transform: translateY(-4px); */
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   border-color: #3498db;
 }
@@ -164,24 +164,22 @@
 
 .nav-link:hover {
   background: #2980b9;
-  transform: translateY(-2px);
+  /* transform: translateY(-2px); */
   box-shadow: 0 4px 8px rgba(52, 152, 219, 0.3);
 }
-
 
 /* Responsive */
 @media (max-width: 768px) {
   .title {
     font-size: 2.5rem;
   }
-  
+
   .description {
     font-size: 1.1rem;
   }
-  
+
   .features,
   .contact-grid {
     grid-template-columns: 1fr;
   }
 }
-
